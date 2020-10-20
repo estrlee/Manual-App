@@ -15,8 +15,32 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_36F9F98974DFE02CCB204A373FF60CA5"
+        "OwnerKey" = "8:_77A7C8E3B01A405DA205D60B87D4EFA4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_77A7C8E3B01A405DA205D60B87D4EFA4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B3266F7C6C7549A6ABF8E2EC41CEA4ED"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_36F9F98974DFE02CCB204A373FF60CA5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_77A7C8E3B01A405DA205D60B87D4EFA4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -98,6 +122,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_36F9F98974DFE02CCB204A373FF60CA5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_36F9F98974DFE02CCB204A373FF60CA5"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_83586684F51349219F80803C93397B46"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3266F7C6C7549A6ABF8E2EC41CEA4ED"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Downloads\\orano_zNG_icon.ico"
@@ -135,7 +190,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_BDE3140551144A82943EBEA505C87ABA"
                     {
-                    "Name" = "8:Manual App (COM10)"
+                    "Name" = "8:Manual App"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -306,29 +361,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_21A05DF88600470B8FC5B15202DC8472"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_45D00C80DB994F37955F668EBCAE9CD4"
             {
-            "Name" = "8:Manual App (COM10)"
+            "Name" = "8:Manual App"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_77A7C8E3B01A405DA205D60B87D4EFA4"
             "Folder" = "8:_8AA50DAD78DE4A4E9DCD6A0E6A76A0A2"
             "WorkingFolder" = "8:_83586684F51349219F80803C93397B46"
             "Icon" = "8:_B3266F7C6C7549A6ABF8E2EC41CEA4ED"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5DC4E67A9D25403FB5C2D687FD1EE365"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B173E8466E2847C8BC26F3619EC23C17"
             {
-            "Name" = "8:Manual App (COM10 )"
+            "Name" = "8:Manual App"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_77A7C8E3B01A405DA205D60B87D4EFA4"
             "Folder" = "8:_BDE3140551144A82943EBEA505C87ABA"
             "WorkingFolder" = "8:_83586684F51349219F80803C93397B46"
             "Icon" = "8:_B3266F7C6C7549A6ABF8E2EC41CEA4ED"
@@ -733,6 +788,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_77A7C8E3B01A405DA205D60B87D4EFA4"
+            {
+            "SourcePath" = "8:..\\ManualApp\\obj\\Debug\\ManualApp.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_83586684F51349219F80803C93397B46"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{8E5AA51D-90AD-488D-91BB-6E7148996232}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }
