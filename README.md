@@ -1,2 +1,4 @@
 # Manual-App
-Windows Application to control Arduino
+
+Welcome to Orano Acid Windows Applicaton to control the Arduino!
+This application will allow the user to 
