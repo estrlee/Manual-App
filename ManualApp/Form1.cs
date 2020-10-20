@@ -3,35 +3,77 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ManualAppCOM10
+namespace ManualApp
 
 {
     public partial class Form1 : Form
     
     {
+        bool connected = false;
+        SerialPort sp;
         public Form1()
         {
+           
             InitializeComponent();
-            serialPort1.Open();
+            var ports = SerialPort.GetPortNames();
+            comboBox1.DataSource = ports;
         }
+
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                sp = new SerialPort(comboBox1.SelectedItem.ToString(), 9600);
+
+                if (!connected)
+                {
+                    sp.Open();
+                    connected = true;
+                    MessageBox.Show("Serial port connected");
+                }
+                else
+                {
+                    sp.Close();
+                    sp.Dispose();
+
+                    connected = false;
+
+                    MessageBox.Show("Serial port disconnected");
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Serial port cannot connect");
+            }
+
+
+        }
+
+
+        
+
 
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)   //valve from mixing to motor
         {
             if (checkBox1.Checked)
             {
-                serialPort1.Write("E");
+                sp.Write("E");
 
                 label1.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("e");
+                sp.Write("e");
 
                 label1.Text = "CLOSED";
             }
@@ -41,13 +83,13 @@ namespace ManualAppCOM10
         {
             if (checkBox2.Checked)
             {
-                serialPort1.Write("F");
+                sp.Write("F");
 
                 label2.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("f");
+                sp.Write("f");
 
                 label2.Text = "CLOSED";
             }
@@ -57,13 +99,13 @@ namespace ManualAppCOM10
         {
             if (checkBox3.Checked)
             {
-                serialPort1.Write("G");
+                sp.Write("G");
 
                 label3.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("g");
+                sp.Write("g");
 
                 label3.Text = "CLOSED";
             }
@@ -73,13 +115,13 @@ namespace ManualAppCOM10
         {
             if (checkBox4.Checked)
             {
-                serialPort1.Write("H");
+                sp.Write("H");
 
                 label4.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("h");
+                sp.Write("h");
 
                 label4.Text = "CLOSED";
             }
@@ -89,13 +131,13 @@ namespace ManualAppCOM10
         {
             if (checkBox5.Checked)
             {
-                serialPort1.Write("I");
+                sp.Write("I");
 
                 label5.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("i");
+                sp.Write("i");
 
                 label5.Text = "CLOSED";
             }
@@ -105,13 +147,13 @@ namespace ManualAppCOM10
         {
             if (checkBox6.Checked)
             {
-                serialPort1.Write("J");
+                sp.Write("J");
 
                 label6.Text = "OPEN";
             }
             else
             {
-                serialPort1.Write("j");
+                sp.Write("j");
 
                 label6.Text = "CLOSED";
             }
@@ -121,13 +163,13 @@ namespace ManualAppCOM10
         {
             if (checkBox7.Checked)
             {
-                serialPort1.Write("A");
+                sp.Write("A");
 
                 label7.Text = "ON";
             }
             else
             {
-                serialPort1.Write("a");
+                sp.Write("a");
 
                 label7.Text = "OFF";
             }
@@ -138,13 +180,13 @@ namespace ManualAppCOM10
         {
             if (checkBox8.Checked)
             {
-                serialPort1.Write("M");
+                sp.Write("M");
 
                 label8.Text = "ON";
             }
             else
             {
-                serialPort1.Write("m");
+                sp.Write("m");
 
                 label8.Text = "OFF";
             }
@@ -154,13 +196,13 @@ namespace ManualAppCOM10
         {
             if (checkBox9.Checked)
             {
-                serialPort1.Write("B");
+                sp.Write("B");
 
                 label9.Text = "ON";
             }
             else
             {
-                serialPort1.Write("b");
+                sp.Write("b");
 
                 label9.Text = "OFF";
             }
@@ -171,13 +213,13 @@ namespace ManualAppCOM10
         {
             if (checkBox10.Checked)
             {
-                serialPort1.Write("C");
+                sp.Write("C");
 
                 label10.Text = "ON";
             }
             else
             {
-                serialPort1.Write("c");
+                sp.Write("c");
 
                 label10.Text = "OFF";
             }
@@ -188,13 +230,13 @@ namespace ManualAppCOM10
         {
             if (checkBox11.Checked)
             {
-                serialPort1.Write("D");
+                sp.Write("D");
 
                 label11.Text = "ON";
             }
             else
             {
-                serialPort1.Write("d");
+                sp.Write("d");
 
                 label11.Text = "OFF";
             }
@@ -207,6 +249,12 @@ namespace ManualAppCOM10
 
         }
 
-       
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+
     }
 }

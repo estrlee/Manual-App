@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8E5AA51D-90AD-488D-91BB-6E7148996232}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ManualAppCOM10</RootNamespace>
-    <AssemblyName>ManualAppCOM10</AssemblyName>
+    <RootNamespace>ManualApp</RootNamespace>
+    <AssemblyName>ManualApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

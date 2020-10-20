@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ManualAppCOM10")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ManualApp")]
+[assembly: AssemblyDescription("Manual control over arduino")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ManualAppCOM10")]
+[assembly: AssemblyCompany("Esther Lee")]
+[assembly: AssemblyProduct("ManualApp")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
