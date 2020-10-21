@@ -9,7 +9,7 @@ This application was specifically made to control the Orano Acid Team’s Arduin
 ## Installation Instructions <br>
 
 ### Downloading Arduino Code and Connecting Bluetooth module: <br>
-1.	Connect the Arduino to a computer and push the provided <a href ="https://github.com/estrlee/Manual-App/blob/master/windows_arduinocode.zip"> Arduino Code </a> to the connected Arduino.
+1.	Connect the Arduino to a computer and push the provided <a href="https://github.com/estrlee/Manual-App/blob/master/windows_arduinocode.zip" target="_blank"> Arduino Code </a> to the connected Arduino.
 2.	Disconnect the Arduino from the computer (Bluetooth module will not communicate with the Arduino if the Arduino is still connected to your computer.
 3.	Add the Bluetooth module to your computer through the Bluetooth & other devices page in the settings. Name will appear as HC-06 or unknown device. Enter the password: 1234.
 4.	Click on more Bluetooth options located on the Bluetooth & other devices settings page.
