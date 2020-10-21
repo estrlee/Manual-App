@@ -2,7 +2,7 @@
 
 Welcome to Orano Acid Windows Applicaton to control the Arduino! <br>
 
-This application will allow the user to control an Arduino and Relay board. Make sure that a Bluetooth module is connected to the Arduino to remotely control the Arduino. <br>
+This application will allow the user to control an Arduino and Relay board. Make sure that a Bluetooth module is connected to remotely control the Arduino. <br>
 
 This application was specifically made to control the Orano Acid Team’s Arduino and its corresponding relay board. The form and Arduino code can be downloaded and changed to fit a different project. <br>
 
