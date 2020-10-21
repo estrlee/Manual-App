@@ -16,7 +16,7 @@ This application was specifically made to control the Orano Acid Team’s Arduin
 5.	Select the COM Ports tab and make note of the OUTGOING COM Port Number.
 
 ### Windows Application Installer: <br>
-1.	Download and extract the <a href="https://github.com/estrlee/Manual-App/blob/master/Manual%20App%20Installer.zip">Manual App Installer </a>
+1.	Download and extract the [Manual App Installer](https://github.com/estrlee/Manual-App/blob/master/Manual%20App%20Installer.zip)
 2.	Click on the file --> click debug file --> click the setup.exe file. Follow the on screen instructions.
 3.	Open the Manual App.
 4.	Select the corresponding OUTGOING COM Port number and click Connect/Disconnect (the Bluetooth module should have a solid light if connected properly).
