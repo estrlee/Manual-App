@@ -20,5 +20,5 @@ This application was specifically made to control the Orano Acid Team’s Arduin
 2.	Click on the file --> click debug file --> click the setup.exe file. Follow the on screen instructions.
 3.	Open the Manual App.
 4.	Select the corresponding OUTGOING COM Port number and click Connect/Disconnect (the Bluetooth module should have a solid light if connected properly).
-5.	Select desired ports.
+5.	Your application is now ready!
 
