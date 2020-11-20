@@ -19,7 +19,7 @@ This application was specifically made to control the Orano Acid Team’s Arduin
 4.  Look for HC-06 or unknown device. Enter the password: 1234.
 
 #### Checking Bluetooth module COM Port Number
-    You must be connected to the correct COM port to control the Arduino.
+    You must be connected to the outgoing COM port to control the Arduino.
 1.	Go to the "Bluetooth & other devices settings" page in your settings.
 2.	Click on "More Bluetooth options"
 3.  Select the "COM Ports" tab.
